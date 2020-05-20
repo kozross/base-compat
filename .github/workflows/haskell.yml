@@ -35,6 +35,6 @@ jobs:
     - name: Update
       run: cabal new-update
     - name: Configure
-      run: cabal new-configure --enable-tests
+      run: cabal new-configure --enable-tests base-compat
     - name: Build 
-      run: cabal new-build --enable-tests
+      run: cabal new-build --enable-tests base-compat
